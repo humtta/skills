@@ -12,7 +12,7 @@ mkdir -p "${agents_dir}"
 
 # Remove skills directory if it exists
 if [[ -e "${target_dir}" ]]; then
-  rm -rf "${target_dir}"
+	rm -rf "${target_dir}"
 fi
 
 # Symlink skills into agents directory
