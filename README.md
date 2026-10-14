@@ -16,6 +16,11 @@ Then, run the setup script from the cloned directory:
 ./setup.sh
 ```
 
+The setup script creates a symbolic link at `~/.agents/skills` pointing to the
+`skills` directory in this repository. If `~/.agents/skills` already exists, it
+will be deleted without backup. If you move or rename the cloned directory, the
+link will break. To fix it, run the setup script again.
+
 ## License
 
 This project is licensed under the [MIT License].
